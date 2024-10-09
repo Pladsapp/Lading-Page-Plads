@@ -1,0 +1,34 @@
+
+@import url(fontawesome-all.min.css);
+
+/* Main background color to #4A3186 (purple) */
+body {
+    background: #4A3186;
+}
+
+/* Text color for headers to #5EE783 (green) */
+h1, h2, h3, h4, h5, h6 {
+    color: #5EE783;
+}
+
+/* Primary buttons background to #58B1ED (blue) */
+.button.primary {
+    background-color: #58B1ED;
+    color: #FFFFFF; /* White text */
+}
+
+/* Highlight elements in #E928A0 (pink) */
+.highlight {
+    color: #E928A0;
+}
+
+/* Modify other elements to use the new color scheme */
+/* Example: spotlight sections, border colors, etc. */
+.spotlight .image {
+    border-color: #5EE783;
+}
+
+/* Accent border for other elements */
+hr {
+    border-bottom-color: #58B1ED;
+}
